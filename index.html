@@ -57,6 +57,7 @@
  </p>
         </td>
       </tr>
+	  
       </table>
        <table width="63%" align="center" border="0" cellspacing="0" cellpadding="20">
        <tr onmouseout="pixel_stop()" onmouseover="pixel_start()" >
@@ -83,7 +84,33 @@
         <p>We propose a learning based solution to recover photorealistic scenes from globally multiplexed lensless measurements. </p>
       </td>
     </tr> 
-    
+	
+	
+
+       <tr onmouseout="canopic_stop()" onmouseover="canopic_start()" >
+      <td width="20%">
+        <div class="one">
+        <div class="two" id = 'canopic_image'><img src='images/canopic.png' width='170' height='140'></div>
+        <img src='images/canopic.png' width='170' height='140'>
+        </div>                
+        <script type="text/javascript">
+        function canopic_start() {
+        document.getElementById('canopic_image').style.opacity = "1";
+        }
+        function canopic_stop() {
+        document.getElementById('canopic_image').style.opacity = "0";
+        }
+        pixel_stop()
+        </script>
+      </td>
+      <td valign="top" width="75%">
+        <p>
+        <papertitle><a href="https://ieeexplore.ieee.org/document/9102956/">CAnOPIC: Pre-Digital Privacy-Enhancing Encodings for Computer Vision</a></papertitle><br>
+          <a href="http://jaspertan.web.rice.edu/">Jasper Tan</a>, <a href="http://siddiquesalman.github.io/">Salman S. Khan</a>, <a href="https://vivekboominathan.com/">Vivek Boominathan</a>, <a href="http://www.jeffreybyrne.com/">Jeffrey Byrne</a>, <a href="https://richb.rice.edu/">Richard Baraniuk</a>, <a href="http://www.ee.iitm.ac.in/kmitra/">Kaushik Mitra</a>, <a href="http://computationalimaging.rice.edu/team/ashok-veeraraghavan/">Ashok Veeraraghavan</a><br>
+        <em>International Conference on Multimedia and Expo, 2020 <font color="red">(Oral)</font></em><br>
+        <p>We propose a learning based framework for designing the optical and analog components of a privacy enhancing camera. </p>
+      </td>
+    </tr> 
     <table width="80%" align="left" border="0" cellspacing="0" cellpadding="20">
       <tr>
         <td>
