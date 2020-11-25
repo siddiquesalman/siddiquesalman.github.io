@@ -63,7 +63,32 @@
 	  
       </table>
        <table width="63%" align="center" border="0" cellspacing="0" cellpadding="20">
-	   
+		
+		<tr onmouseout="tp_stop()" onmouseover="tp_start()" >
+      <td width="25%">
+        <div class="one">
+        <div class="two" id = 'pixel_imagetp'><img src='images/dalek_op.png' width='170'></div>
+        <img src='images/dalek.png' width='170'>
+        </div>                
+        <script type="text/javascript">
+        function tp_start() {
+        document.getElementById('pixel_imagetp').style.opacity = "1";
+        }
+        function tp_stop() {
+        document.getElementById('pixel_imagetp').style.opacity = "0";
+        }
+        tp_stop()
+        </script>
+      </td>
+      <td valign="top" width="75%">
+        <p>
+        <papertitle><a href="https://siddiquesalman.github.io/flatnet">FlatNet: Towards Photorealistic Scene Reconstruction from Lensless Measurements</a></papertitle><br>
+          <a href="http://siddiquesalman.github.io/">Salman S. Khan</a>, <a href="https://varun19299.github.io/">Varun Sundar</a>, <a href="https://vivekboominathan.com/">Vivek Boominathan</a>, <a href="http://computationalimaging.rice.edu/team/ashok-veeraraghavan/">Ashok Veeraraghavan</a>, <a href="http://www.ee.iitm.ac.in/kmitra/">Kaushik Mitra</a><br>
+        <em>IEEE Transactions on Pattern Analysis and Machine Intelligence, 2020</em><br>
+        <p>We propose a general learning based framework to recover photorealistic scenes from lensless captures for both separable and non-separable forward models.</p>
+      </td>
+    </tr>
+		
 	   <tr onmouseout="canopic_stop()" onmouseover="canopic_start()" >
       <td width="20%">
         <div class="one">
@@ -107,7 +132,7 @@
       </td>
       <td valign="top" width="75%">
         <p>
-        <papertitle><a href="https://siddiquesalman.github.io/flatnet/">Towards Photorealistic Reconstruction of Highly Multiplexed Lensless Images</a></papertitle><br>
+        <papertitle><a href="https://siddiquesalman.github.io/flatcam_iccv.html">Towards Photorealistic Reconstruction of Highly Multiplexed Lensless Images</a></papertitle><br>
           <a href="http://siddiquesalman.github.io/">Salman S. Khan</a>, <strong>Adarsh V.R.</strong>, <a href="https://vivekboominathan.com/">Vivek Boominathan</a>, <a href="http://jaspertan.web.rice.edu/">Jasper Tan</a>, <a href="http://computationalimaging.rice.edu/team/ashok-veeraraghavan/">Ashok Veeraraghavan</a>, <a href="http://www.ee.iitm.ac.in/kmitra/">Kaushik Mitra</a><br>
         <em>International Conference on Computer Vision, 2019 <font color="red">(Oral)</font></em><br>
         <p>We propose a learning based solution to recover photorealistic scenes from globally multiplexed lensless measurements. </p>
