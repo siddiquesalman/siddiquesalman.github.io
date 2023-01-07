@@ -122,7 +122,30 @@
       </td>
     </tr>   
 	
-	
+	<tr onmouseout="tp_stop()" onmouseover="tp_start()" >
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+        <div class="two" id = 'pixel_imagetp'><img src='images/dalek_op.png' width='160'></div>
+        <img src='images/dalek.png' width='160'>
+        </div>                
+        <script type="text/javascript">
+        function tp_start() {
+        document.getElementById('pixel_imagetp').style.opacity = "1";
+        }
+        function tp_stop() {
+        document.getElementById('pixel_imagetp').style.opacity = "0";
+        }
+        tp_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <p>
+        <papertitle><a href="https://siddiquesalman.github.io/flatnet">FlatNet: Towards Photorealistic Scene Reconstruction from Lensless Measurements</a></papertitle><br>
+          <a href="http://siddiquesalman.github.io/">Salman S. Khan</a>, <a href="https://varun19299.github.io/">Varun Sundar</a>, <a href="https://vivekboominathan.com/">Vivek Boominathan</a>, <a href="http://computationalimaging.rice.edu/team/ashok-veeraraghavan/">Ashok Veeraraghavan</a>, <a href="http://www.ee.iitm.ac.in/kmitra/">Kaushik Mitra</a><br>
+        <em>IEEE Transactions on Pattern Analysis and Machine Intelligence, 2020</em><br>
+        <p>We propose a general learning based framework to recover photorealistic scenes from lensless captures for both separable and non-separable forward models.</p>
+      </td>
+    </tr>
 
        
     <table width="80%" align="left" border="0" cellspacing="0" cellpadding="20">
