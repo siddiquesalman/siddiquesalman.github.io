@@ -97,7 +97,30 @@
       </td>
     </tr> 
 	   
-	   
+	<tr onmouseout="lwgnet_stop()" onmouseover="lwgnet_start()" >
+       <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+        <div class="two" id = 'lwgnet_image'><img src='images/lwgop.png' width='160' height='140'></div>
+        <img src='images/lwgip.png' width='160' height='140'>
+        </div>                
+        <script type="text/javascript">
+        function lwgnet_start() {
+        document.getElementById('lwgnet_image').style.opacity = "1";
+        }
+        function lwgnet_stop() {
+        document.getElementById('lwgnet_image').style.opacity = "0";
+        }
+        pixel_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        
+        <papertitle><a href="https://github.com/at3e/LWGNet">LWGNet: Learned Wirtinger Gradients for Fourier Ptychographic Phase Retrieval</a></papertitle><br>
+          Atreyee Saha, <a href="http://siddiquesalman.github.io/">Salman S. Khan</a>, Sagar Sehrawat, Sanjana Prabhu, Shanti Bhattacharya, <a href="https://www.ee.iitm.ac.in/kmitra/">Kaushik Mitra</a><br>
+        <em>European Conference on Computer Vision, 2022 (Poster)</font></em><br>
+        <p>We propose an unrolled physics-based network for Fourier Ptychographic reconstructions that outperforms existing methods for low dynamic range sensors. </p>
+      </td>
+    </tr>   
 	
 	
 
