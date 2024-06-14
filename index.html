@@ -69,8 +69,8 @@
             <td style="padding:2.5%;width:63%;vertical-align:middle">
           <heading>Research</heading>
           <p align="justify">
-          I'm primarily interested in developing machine learning and computer vision tools for digital health problems.
-          Most of my recent works has been focused on using deep learning to develop novel camera designs with form-factor, 
+          I'm primarily interested in developing machine learning and computer vision tools for computational imaging and digital health problems.
+          Most of my recent works has been focused on using deep learning to develop novel imaging systems with form-factor, 
           cost and privacy advantages that can have applications in robotics, healthcare and smart wearables.
  </p>
         </td>
@@ -79,6 +79,59 @@
       </table>
        <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 	   
+        <tr onmouseout="ocam_stop()" onmouseover="ocam_start()" >
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+            <div class="two" id = 'pixel_imagedd'>
+        <img src='images/opencam2.png' width='160'></div>
+            <img src='images/opencam2.png' width='160'>
+            </div>                
+            <script type="text/javascript">
+            function ocam_start() {
+            document.getElementById('pixel_imagedd').style.opacity = "1";
+            }
+            function ocam_stop() {
+            document.getElementById('pixel_imagedd').style.opacity = "0";
+            }
+            tp_stop()
+            </script>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            
+            <papertitle><a href="https://arxiv.org/abs/2312.01077">OpEnCam: Lensless Optical Encryption Camera</a></papertitle>
+        <br>
+              <a href="http://siddiquesalman.github.io/">Salman S. Khan</a>, <a href="https://sites.google.com/site/xiangyurutgers">Xiang Yu</a>, <a href="https://www.ee.iitm.ac.in/kmitra/">Kaushik Mitra</a>,  <a href="https://cseweb.ucsd.edu/~mkchandraker/">Manmohan Chandraker</a>, <a href="https://www.francescopittaluga.com/">Francesco Pittaluga</a><br>
+            <em>arXiv 2024</font></em><br>
+            <p>We propose a double-mask lensless camera that performs encryption in the optical domain. </p>
+          </td>
+        </tr> 
+        <tr onmouseout="cad_stop()" onmouseover="cad_start()" >
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+            <div class="two" id = 'pixel_imagedd'>
+        <img src='images/im0_pred_aif.png' width='160'></div>
+            <img src='images/im0_pred_depth.png' width='160'>
+            </div>                
+            <script type="text/javascript">
+            function cad_start() {
+            document.getElementById('pixel_imagedd').style.opacity = "1";
+            }
+            function cad_stop() {
+            document.getElementById('pixel_imagedd').style.opacity = "0";
+            }
+            tp_stop()
+            </script>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            
+            <papertitle><a href="https://shadowfax11.github.io/cads/">CADS: Passive Snapshot Coded Aperture Dual-Pixel RGB-D Imaging</a></papertitle>
+        <br>
+              <a href="https://shadowfax11.github.io/"> Bhargav Ghanekar</a>, <a href="http://siddiquesalman.github.io/">Salman S. Khan</a>, <a href="https://vivekboominathan.com/">Vivek Boominathan</a>, Pranav Sharma, Shreyas Singh, <a href="https://www.ee.iitm.ac.in/kmitra/">Kaushik Mitra</a>,  <a href="http://computationalimaging.rice.edu/team/ashok-veeraraghavan/">Ashok Veeraraghavan</a><br>
+            <em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024</font></em><br>
+            <p>We propose a novel coded-aperture based dual pixel camera with superior depth and RGB imaging capability. </p>
+          </td>
+        </tr> 
+
         <tr onmouseout="dd_stop()" onmouseover="dd_start()" >
           <td style="padding:20px;width:25%;vertical-align:middle">
             <div class="one">
@@ -101,8 +154,8 @@
             <papertitle><a href="https://www.dropbox.com/s/cb23ioq44ofn14z/camera_ready_merged.pdf?dl=0">Designing Optics and Algorithms for Ultra-thin, High-speed Lensless
               Cameras</a></papertitle>
         <br>
-              <a href="http://siddiquesalman.github.io/">Salman S. Khan</a>,<a href="https://vivekboominathan.com/">Vivek Boominathan</a>, <a href="http://computationalimaging.rice.edu/team/ashok-veeraraghavan/">Ashok Veeraraghavan</a>, <a href="https://www.ee.iitm.ac.in/kmitra/">Kaushik Mitra</a><br>
-            <em>International Conference on Multimedia and Expo, 2023</font></em><br>
+              <a href="http://siddiquesalman.github.io/">Salman S. Khan</a>, <a href="https://vivekboominathan.com/">Vivek Boominathan</a>, <a href="http://computationalimaging.rice.edu/team/ashok-veeraraghavan/">Ashok Veeraraghavan</a>, <a href="https://www.ee.iitm.ac.in/kmitra/">Kaushik Mitra</a><br>
+            <em>International Conference on Multimedia and Expo (ICME), 2023</font></em><br>
             <p>We propose a learning-based framework for designing phase-masks for ultra-thin lensless cameras. </p>
           </td>
         </tr> 
@@ -128,7 +181,7 @@
         
         <papertitle><a href="https://github.com/siddiquesalman/flatnet3d">FlatNet3D: Intensity and Absolute Depth from Single-shot Lensless Capture</a></papertitle>
 		<br>
-          Dhruvjyoti Bagadthey, Sanjana Prabhu, <a href="http://siddiquesalman.github.io/">Salman S. Khan</a>, Tony Fredrick</a>,<a href="https://vivekboominathan.com/">Vivek Boominathan</a>, <a href="http://computationalimaging.rice.edu/team/ashok-veeraraghavan/">Ashok Veeraraghavan</a>, <a href="https://www.ee.iitm.ac.in/kmitra/">Kaushik Mitra</a><br>
+          Dhruvjyoti Bagadthey*, Sanjana Prabhu*, <a href="http://siddiquesalman.github.io/">Salman S. Khan*</a>, Tony Fredrick</a>,<a href="https://vivekboominathan.com/">Vivek Boominathan</a>, <a href="http://computationalimaging.rice.edu/team/ashok-veeraraghavan/">Ashok Veeraraghavan</a>, <a href="https://www.ee.iitm.ac.in/kmitra/">Kaushik Mitra</a><br>
         <em>Journal of the Optical Society of America A, 2022</font></em><br>
         <p>We propose a novel physics-inspired neural network for fast and accurate RGB-D estimation from single-shot lensless capture. </p>
       </td>
@@ -154,7 +207,7 @@
         
         <papertitle><a href="https://github.com/at3e/LWGNet">LWGNet: Learned Wirtinger Gradients for Fourier Ptychographic Phase Retrieval</a></papertitle><br>
           Atreyee Saha, <a href="http://siddiquesalman.github.io/">Salman S. Khan</a>, Sagar Sehrawat, Sanjana Prabhu, Shanti Bhattacharya, <a href="https://www.ee.iitm.ac.in/kmitra/">Kaushik Mitra</a><br>
-        <em>European Conference on Computer Vision, 2022 (Poster)</font></em><br>
+        <em>European Conference on Computer Vision (ECCV), 2022</font></em><br>
         <p>We propose an unrolled physics-based network for Fourier Ptychographic reconstructions that outperforms existing methods for low dynamic range sensors. </p>
       </td>
     </tr>   
@@ -203,7 +256,7 @@
         
         <papertitle><a href="https://ieeexplore.ieee.org/document/9102956/">CAnOPIC: Pre-Digital Privacy-Enhancing Encodings for Computer Vision</a></papertitle><br>
           <a href="http://jaspertan.web.rice.edu/">Jasper Tan</a>, <a href="http://siddiquesalman.github.io/">Salman S. Khan</a>, <a href="https://vivekboominathan.com/">Vivek Boominathan</a>, <a href="http://www.jeffreybyrne.com/">Jeffrey Byrne</a>, <a href="https://richb.rice.edu/">Richard Baraniuk</a>, <a href="http://www.ee.iitm.ac.in/kmitra/">Kaushik Mitra</a>, <a href="http://computationalimaging.rice.edu/team/ashok-veeraraghavan/">Ashok Veeraraghavan</a><br>
-        <em>International Conference on Multimedia and Expo, 2020 <font color="red">(Oral)</font></em><br>
+        <em>International Conference on Multimedia and Expo (ICME), 2020 <font color="red">(Oral)</font></em><br>
         <p>We propose a learning based framework for designing the optical and analog components of a privacy enhancing camera. </p>
       </td>
     </tr> 
@@ -226,7 +279,7 @@
       <td style="padding:20px;width:75%;vertical-align:middle">
         <papertitle><a href="https://siddiquesalman.github.io/flatcam_iccv.html">Towards Photorealistic Reconstruction of Highly Multiplexed Lensless Images</a></papertitle><br>
           <a href="http://siddiquesalman.github.io/">Salman S. Khan</a>, Adarsh V.R., <a href="https://vivekboominathan.com/">Vivek Boominathan</a>, <a href="http://jaspertan.web.rice.edu/">Jasper Tan</a>, <a href="http://computationalimaging.rice.edu/team/ashok-veeraraghavan/">Ashok Veeraraghavan</a>, <a href="http://www.ee.iitm.ac.in/kmitra/">Kaushik Mitra</a><br>
-        <em>International Conference on Computer Vision, 2019 <font color="red">(Oral)</font></em><br>
+        <em>International Conference on Computer Vision (ICCV), 2019 <font color="red">(Oral)</font></em><br>
         <p>We propose a learning based solution to recover photorealistic scenes from globally multiplexed lensless measurements. </p>
       </td>
     </tr> 
